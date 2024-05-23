@@ -1,15 +1,495 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CP should get me</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <p class="hey">hi</p>
-    <ul>
-      <li>hey</li>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Welcome To Python</title>
+  <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+  <nav class="main-navbar">
+    <ul class="flex navbar-items">
+      <li class="nav-word blue-top">
+        <a href="#">Python</a>
+      </li>
+      <li class="nav-word red-top">
+        <a href="#">PSF</a>
+      </li>
+      <li class="nav-word yellow-top">
+        <a href="#">Docs</a>
+      </li>
+      <li class="nav-word green-top">
+        <a href="#">Pypl</a>
+      </li>
+      <li class="nav-word orange-top">
+        <a href="#">Jobs</a>
+      </li>
+      <li class="nav-word violet-top">
+        <a href="#">Community</a>
+      </li>
     </ul>
-  </body>
+    <header>
+      <div class="flex">
+        <div class=" header-container">
+          <img src="./img/pythonLogo.png" class="python-img" />
+
+          <div class="flex a-center">
+            <button class="donate-button">Donate</button>
+            <div class="search-field">
+              <img src="./img/searchi.png" class="search-icon" />
+              <input type="text" placeholder="Search" class="search-input" />
+              <button class="submit-search-button">Go</button>
+              <p class="socialize">Socialize</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <nav class="main-nav">
+        <ul class="navigation-menu">
+          <ol>
+            <a>
+              About
+            </a>
+          </ol>
+          <ol>
+            <a>
+              Downloads
+            </a>
+          </ol>
+          <ol>
+            <a>
+              Documentation
+            </a>
+          </ol>
+          <ol>
+            <a>
+              Community
+            </a>
+          </ol>
+          <ol>
+            <a>
+              Success Stories
+            </a>
+          </ol>
+          <ol>
+            <a>
+              News
+            </a>
+          </ol>
+          <ol>
+            <a>
+              Events
+            </a>
+          </ol>
+        </ul>
+      </nav>
+
+
+      <div class="header-banner">
+        <div class="code-space">
+          <p class="code-gray"># Simple output (with Unicode)</p>
+          <p class="code-green">>>> print("Hello, I'm Python!")</p>
+          <p class="code-white"> Hello, I'm Python! </p>
+          <p class="code-gray">>>> # Input, assignment </p>
+          <p class="code-green">>>> name = input('What is your name?\n')</p>
+          <p class="code-white">What is your name?</p>
+          <p class="code-white">Python</p>
+          <p class="code-green">>>> print(f'Hi, {name}.')</p>
+
+        </div>
+
+
+        <div class="functions-text">
+          <h1> Quick & Easy to Learn</h1>
+          <p>
+            Experienced programmers in any other language can pick up Python very quickly,
+            and beginners find the clean syntax and indentation structure easy to learn.
+            <span>Whet your appetite with our Python 3 overview.</span>
+          </p>
+
+          <div>
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>4</button>
+            <button>5</button>
+          </div>
+        </div>
+      </div>
+      <p class="bottom-header-text">
+        Python is a programming language that lets you work quickly<br> and integrate systems more effectively .
+        <span>&#62;&#62;&#62;</span><span>Learn more</span>
+      </p>
+    </header>
+    <div class="information-body">
+
+
+
+      <div class="row" style="padding-bottom: 30px;">
+        <div class="small-card">
+          <h2><img src="./img/shut.png" class="img-res" /> Get Started</h2>
+          <p>Python source code and installers<br>are available for download for all<br>versions!</p>
+          <p class="c-l-blue"><a>Start with our Beginner's guide</a></p>
+
+        </div>
+
+        <div class="small-card">
+          <h2><img src="./img/download.png" class="img-res" /> Download</h2>
+          <p>Whether you are new to<br> programming or an experienced<br> developer , its easy to learn and use<br>
+            Python
+          </p>
+          <p class="c-l-blue">Latest:<a>Python 3.12.3</a></p>
+        </div>
+
+        <div class="small-card">
+          <h2><img src="./img/document.png" class="img-res" /> Docs</h2>
+          <p>Documentation for Python's<br> standard library, along with tutorials<br> and guides, are available online
+            .
+          </p>
+          <p class="c-l-blue"><a>docs.python.org</a></p>
+        </div>
+
+        <div class="small-card">
+          <h2><img src="./img/job.png" class="img-res" /> Jobs</h2>
+          <p>Looking for work or have a Python<br> related position that you're trying to <br> hire for ? Our
+            relaunched<br>
+            community job board is the <br>place to go</p>
+          <p class="c-l-blue"><a>jobs.python.org</a></p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="list-widgets" style="width: 100%; margin-left: 50px;">
+          <div class="widget-item">
+            <div class="flex widget-title">
+              <h2>
+                <img src="./img/News.png" class="img-res" />
+                Latest News
+              </h2>
+              <p>
+                More
+              </p>
+            </div>
+
+            <ul>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>Python 3.13.0 beta released</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>PSF Grants Program 2022 & 2023 Transparency Report</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>PSF Board Election Dates for 2024</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>PSF Board Election for 2024</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>The PSF's 2023 Annual Impact Report is here !</a></p>
+              </li>
+            </ul>
+          </div>
+
+
+          <div class="widget-item">
+            <div class="flex widget-title">
+              <h2>
+                <img src="./img/calendar.png" class="img-res" />
+                Upcoming Events
+              </h2>
+              <p>
+                More
+              </p>
+            </div>
+
+            <ul>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>Python 3.13.0 beta released</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>PSF Grants Program 2022 & 2023 Transparency Report</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>PSF Board Election Dates for 2024</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>PSF Board Election for 2024</a></p>
+              </li>
+              <li class="flex">
+                <time>2024-05-08</time>
+                <p><a>The PSF's 2023 Annual Impact Report is here !</a></p>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="medium-widget">
+          <div class="flex widget-title">
+            <h2>
+              <img src="./img/events-icon.png" class="img-res" />
+              Success Stories
+            </h2>
+            <p>
+              More
+            </p>
+          </div>
+          <div>
+            <blockquote>
+              <a>When an Open Data standard is created and promoted,<br> it’s important to think why - what change is
+                this
+                trying to <br>drive? What will people do with this data that they<br> couldn’t do before?</a>
+            </blockquote>
+
+            <p>
+              <span>Saving the world with Open Data and Python</span> by James Blaster
+            </p>
+          </div>
+        </div>
+
+        <div class="medium-widget">
+          <div class=" flex widget-title">
+            <h2>
+              <img src="./img/pythonLogo2.png" class="img-res" />
+              Use Python for...
+            </h2>
+            <p>
+              More
+            </p>
+          </div>
+
+          <ul class="menu-row">
+            <li>
+              <b>Web Development:</b>
+              <span class="tag-wrapper">
+                <a class="tag">
+                  Django
+                </a>
+                ,
+                <a class="tag">
+                  Pyramid
+                </a>
+                ,
+                <a class="tag">Bottle</a>
+                ,
+                <a class="tag">Tornado</a>,
+                <a class="tag">Flask</a>,
+                <a class="tag">Web2py</a>
+
+              </span>
+            </li>
+
+            <li>
+              <b>GUI Development:</b>
+              <span class="tag-wrapper">
+                <a class="tag">
+                  TkInter
+                </a>
+                ,
+                <a class="tag">
+                  PyGObject
+                </a>
+                ,
+                <a class="tag">PyQt</a>
+                ,
+                <a class="tag">PySide</a>
+                ,
+                <a class="tag">Kivy</a>
+
+              </span>
+            </li>
+
+            <li>
+              <b>Scientific and Numeric:</b>
+              <span class="tag-wrapper">
+                <a class="tag">
+                  Django
+                </a>
+                ,
+                <a class="tag">
+                  Pyramid
+                </a>
+                ,
+                <a class="tag">Bottle</a>
+
+
+              </span>
+            </li>
+
+            <li>
+              <b>Software Development:</b>
+              <span class="tag-wrapper">
+                <a class="tag">
+                  Django
+                </a>
+                ,
+                <a class="tag">
+                  Pyramid
+                </a>
+                ,
+                <a class="tag">Bottle</a>
+
+
+              </span>
+            </li>
+
+            <li>
+              <b>System Administration:</b>
+              <span class="tag-wrapper">
+                <a class="tag">
+                  Django
+                </a>
+                ,
+                <a class="tag">
+                  Pyramid
+                </a>
+                ,
+                <a class="tag">Bottle</a>
+
+
+              </span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="idk">
+        <h2>
+          <span>>>></span>
+          <a class="c-l-blue">Python enhancement proposals:</a>
+          The future of Python
+        </h2>
+
+        <a><img src="./img/wifiLogo.png" class="img-res" /> RSS</a>
+      </div>
+
+      <div class="idk-2">
+        <div>
+          <h2 class="code-yellow">>>>> Python Software Foundation</h2>
+          <p>The mission of the Python Software Foundation is to promote, protect, and advance the Python programming
+            language, and to support and facilitate the growth of a diverse and international community of Python
+            programmers. Learn more</p>
+          <div>
+            <button class="end-button">Become a member</button>
+            <button class="end-button">Donate to the PSF</button>
+          </div>
+        </div>
+        <img src="./img/pythonLogo.png" />
+      </div>
+    </div>
+    <div class="main-footer-links">
+      <div class="footer-container">
+
+        <div class="footer-column">
+          <h3>About</h3>
+          <ul>
+            <li><a href="#">Applications</a></li>
+            <li><a href="#">Quotes</a></li>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Python Brochure</a></li>
+            <li></li>
+            <li>
+              <h3>Events</h3>
+            <li><a href="#">Getting Started</a></li>
+            <li><a href="#">Audio/Visual Talks</a></li>
+            <li><a href="#">Beginner's Guide</a></li>
+            <li><a href="#">Developer's Guide</a></li>
+
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Downloads</h3>
+          <ul>
+            <li><a href="#">All releases</a></li>
+            <li><a href="#">Source code</a></li>
+            <li><a href="#">Windows</a></li>
+            <li><a href="#">macOS</a></li>
+            <li><a href="#">Other Platforms</a></li>
+            <li><a href="#">License</a></li>
+            <li><a href="#">Alternative Implementations</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Documentation</h3>
+          <ul>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Audio/Visual Talks</a></li>
+            <li><a href="#">Beginner's Guide</a></li>
+            <li><a href="#">Developer's Guide</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Non-English Docs</a></li>
+            <li><a href="#">PEP Index</a></li>
+            <li><a href="#">Python Books</a></li>
+            <li><a href="#">Python Essays</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Community</h3>
+          <ul>
+            <li><a href="#">Diversity</a></li>
+            <li><a href="#">Mailing Lists</a></li>
+            <li><a href="#">IRC</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="#">PSF Annual Impact Report</a></li>
+            <li><a href="#">Python Conferences</a></li>
+            <li><a href="#">Special Interest Groups</a></li>
+            <li><a href="#">Python Logo</a></li>
+            <li><a href="#">Python Wiki</a></li>
+            <li><a href="#">Code of Conduct</a></li>
+            <li><a href="#">Community Awards</a></li>
+            <li><a href="#">Get Involved</a></li>
+            <li><a href="#">Shared Stories</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>Success Stories</h3>
+          <ul>
+            <li><a href="#">Arts</a></li>
+            <li><a href="#">Business</a></li>
+            <li><a href="#">Education</a></li>
+            <li><a href="#">Engineering</a></li>
+            <li><a href="#">Government</a></li>
+            <li><a href="#">Scientific</a></li>
+            <li><a href="#">Software Development</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h3>News</h3>
+          <ul>
+            <li><a href="#">Python News</a></li>
+            <li><a href="#">PSF Newsletter</a></li>
+            <li><a href="#">PSF News</a></li>
+            <li><a href="#">PyCon US News</a></li>
+            <li><a href="#">News from the Community</a></li>
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+</body>
+
 </html>
